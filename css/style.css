@@ -1,0 +1,279 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?svlmxu');
+	src:url('fonts/icomoon.eot?#iefixsvlmxu') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?svlmxu') format('truetype'),
+		url('fonts/icomoon.woff?svlmxu') format('woff'),
+		url('fonts/icomoon.svg?svlmxu#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+	content: "\e600";
+}
+.icon-new-tab:before {
+	content: "\e601";
+}
+
+
+body>section>header>nav{
+	position: fixed;
+	z-index: 999;
+	background: black;
+	text-align: center;
+	background: #BDBDBD;
+}
+body>section>img{
+	max-width: 100%;
+	max-height: 100%;
+}
+body>section>header>nav>ul>li{
+	
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 30%;
+	background: black;
+
+}
+body>section>header>nav>ul{
+	width: 112%;
+}
+body>section>div#fase1{
+	position: relative;
+}
+body>section>div#fase1>label{
+	position: absolute;
+	font-size: 40px;
+	font-weight: bold;
+	background: black;
+	text-align: center;
+	width: 100%;
+	box-shadow: -2px 13px 28px black;
+	top: -6px;
+}
+body>section>div#fase1>p{
+	position: absolute;
+	background: black;
+	top: 100px;
+	width: 32%;
+	height: 22%;
+	left: 98px;
+	padding: 20px;
+	text-align: justify;
+	color: white;
+	box-shadow: 1px 29px 36px 42px black;
+}
+body>section>div#fase1>img{
+	width: 1348px;
+	height: 641px;
+}
+body>section>div#fase1>iframe{
+	position: absolute;
+	height: 250px;
+	width: 546px;
+	left: 61px;
+	top: 340px;
+	box-shadow: 2px 14px 134px 16px black;
+	border:292px;
+	background: black;
+}
+
+body>section>div#fase1>div.material-placeholder>img#captura1{
+	position: absolute;
+	top: 499px;
+	width: 15%;
+	left: 800px;
+}
+body>section>div#fase1>div.material-placeholder>img#captura2{
+	position: absolute;
+	top: 499px;
+	width: 15%;
+	left: 900px;
+}
+body>section>div#fase1>label#name{
+	position: absolute;
+	top: 97px;
+	height: 30px;
+	left: 704px;
+	width: 23%;
+	box-shadow: 15px 17px 58px 38px black;
+	background: black;
+	color: white;
+
+}
+body>section>div#fase1>a#enlace{
+	position: absolute;
+	top: 70px;
+	width: 10%;
+	padding: 0px;
+	left: 1146px;
+	background: #BDBDBD;
+}
+body>section>div#fase2{
+	position: relative;
+}
+body>section>div#fase2>label{
+	position: absolute;
+	font-size: 40px;
+	font-weight: bold;
+	background: black;
+	text-align: center;
+	width: 100%;
+	box-shadow: -2px 13px 28px black;
+	top: -6px;
+}
+body>section>div#fase2>img{
+	width: 1348px;
+	height: 641px;
+}
+
+body>section>div#fase2>div.slider{
+	position: absolute;
+	width: 500px;
+	top: 360px;
+	left: 764px;
+}
+
+body>section>div#fase2>a#enlace1{
+	position: absolute;
+	top: 112px;
+	left: 30px;
+}
+
+body>section>div#fase2>a#enlace2{
+	position: absolute;
+	top: 160px;
+	left: 30px;
+}
+
+body>section>div#fase2>ul{
+	position: absolute;
+	top: 190px;
+	left: 20px;
+
+}
+
+body>section>div#fase2>ul>li{
+	background: black;
+	box-shadow: 2px 4px 6px 4px black;
+	color: white;
+}
+
+body>section>div#fase2>ul>li>h4>a{
+	color: white;
+	background: black;
+}
+
+body>section>div#fase2>div#modal2{
+	max-height: 650px;
+	background: black;
+}
+body>section>div#fase2>div#modal3{
+	max-height: 650px;
+	background: black;
+}
+body>section>div#fase2>div#modal4{
+	max-height: 650px;
+	background: black;
+}
+body>section>div#fase2>div#modal5{
+	max-height: 650px;
+	background: black;
+}
+body>section>div#fase2>div#modal2>div>h4{
+	text-align: center;
+	color: white;
+}
+body>section>div#fase2>div#modal3>div>h4{
+	text-align: center;
+	color: white;
+}
+body>section>div#fase2>div#modal4>div>h4{
+	text-align: center;
+	color: white;
+}
+body>section>div#fase2>div#modal5>div>h4{
+	text-align: center;
+	color: white;
+}
+body>section>div#fase2>div#modal2>div>p{
+	text-align: justify;
+	color: white;
+
+}
+body>section>div#fase2>div#modal3>div>p{
+	text-align: justify;
+	color: white;
+
+}
+body>section>div#fase2>div#modal4>div>p{
+	text-align: justify;
+	color: white;
+
+}
+body>section>div#fase2>div#modal5>div>p{
+	text-align: justify;
+	color: white;
+
+}
+body>section>div#fase2>div#modal2>div>iframe{
+	position: relative;
+	left: 150px;
+	text-align: center;	
+}
+body>section>div#fase2>div#modal3>div>iframe{
+	position: relative;
+	left: 150px;
+	text-align: center;	
+}
+body>section>div#fase2>div#modal4>div>iframe{
+	position: relative;
+	left: 150px;
+	text-align: center;	
+}
+body>section>div#fase2>div#modal5>div>iframe{
+	position: relative;
+	left: 150px;
+	text-align: center;	
+}
+body>section>div#fase2>label#sus{
+	position: absolute;
+	background: transparent;
+	font-size: 30px;
+	top: 66px;
+	left: 1290px;
+	width: 20px;
+	height: 30px;
+	color: black;
+	/* box-shadow: 2px 0px 15px 6px white; */
+}
+body>section>div#fase2>iframe#guardian{
+	position: absolute;
+	top: 300px;
+	left: 100px;
+}
+body>section>div#fase2>label#name1{
+	position: absolute;
+	top: 100px;
+	left: 600px;
+	max-width: 400px;
+	border-radius: 40px;
+	box-shadow: 8px 9px 21px 17px black;
+	height: 30px;
+}
